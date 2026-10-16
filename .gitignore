@@ -1,0 +1,20 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases, logs, and secrets
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.err
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Unrelated project in the workspace
+PHP PROJECT/
